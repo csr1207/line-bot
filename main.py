@@ -15,11 +15,11 @@ handler = WebhookHandler(config.get('line-bot', 'channel_secret'))
 #資料庫連接
 import pymssql
 conn = pymssql.connect(
-    server='DESKTOP-TS38KVS\SQLEXPRESS'
-    ,port='31323' 
+    server='DESKTOP-TS38KVS\SQLEXPRESS' 
     ,user='Alan'
     , password='0415061094'
     , database='iLearningSystem'
+    ,port='1433'
 )
 cursor = conn.cursor()
 
