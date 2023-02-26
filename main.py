@@ -16,7 +16,8 @@ handler = WebhookHandler(config.get('line-bot', 'channel_secret'))
 import pymssql
 conn = pymssql.connect(
     server='DESKTOP-TS38KVS\SQLEXPRESS'
-    , user='Alan'
+    ,port='31323' 
+    ,user='Alan'
     , password='0415061094'
     , database='iLearningSystem'
 )
