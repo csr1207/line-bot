@@ -1,0 +1,6 @@
+line-bot-sdk
+flask 
+pymssql
+flask_sqlalchemy
+requests
+gunicorn
