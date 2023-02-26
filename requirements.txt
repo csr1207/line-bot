@@ -4,3 +4,4 @@ pymssql
 flask_sqlalchemy
 requests
 gunicorn
+pymssql
