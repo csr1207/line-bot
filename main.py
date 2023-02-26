@@ -19,7 +19,7 @@ conn = pymssql.connect(
     ,user='Alan'
     , password='0415061094'
     , database='iLearningSystem'
-    ,port='1433'
+    ,port='31323'
 )
 cursor = conn.cursor()
 
